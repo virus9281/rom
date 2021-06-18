@@ -15,7 +15,7 @@ git config --global user.email geoemmanuelpd2001@gmail.com
 # Rom repo sync & dt ( Add roms and update case functions )
      repo init -u git://github.com/ProjectSakura/android.git -b 11 --depth=1 --groups=all,-notdefault,-device,-darwin,-x86,-mips
      git clone https://github.com/krishiv8190/local_manifest --depth=1 -b main .repo/local_manifests
-     repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
+     repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j15
      source build/envsetup.sh
      export SKIP_ABI_CHECKS=true
      export SELINUX_IGNORE_NEVERALLOWS=true
