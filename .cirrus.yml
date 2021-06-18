@@ -7,7 +7,7 @@ task:
     memory: 32G
   environment:
     CIRRUS_WORKING_DIR: "/tmp/ci"
-    rclone_config: "ENCRYPTED[d79606ef07066fa4c032a3d6856423ec8800f30f7ce5e7636e67d6edcd8f69d654788762ece25de098731ce535e917eb]"
+    rclone_config: "ENCRYPTED[648d8b06c695979cd9aaceb38b7d9643cbcc1a3c0478bff0ff7a512abb9946209656b8a2cb558eea205769069d49639c]"
     CHATID: -1001180021426
     BOTTOKEN: 1815669550:AAEbRHnnqNe1z1EYQ7L1Dww56VklR2Y6k1Y
     TDRIVE: http://idk.krishiv8190.workers.dev
