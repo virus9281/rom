@@ -6,8 +6,7 @@ ccache_download ()
 {
   mkdir -p ~/.config/rclone
   echo "$rclone_config" > ~/.config/rclone/rclone.conf
-  rclone copy drive:ccache/waveOS/ccache.tar.zst /tmp -P
-  tar -xaf ccache.tar.zst
+  rclone copy drive:ccache/waveOS/ccache.tar.zst /tmp -P && tar -xaf ccache.tar.zst
   tar "-I zstd -1 -T8" -xf ccache.tar.zst
   rm -rf ccache.tar.zst
 }
